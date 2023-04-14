@@ -1,0 +1,161 @@
+#outerslide{
+	width:448px;
+	overflow:hidden;
+	background-color:#00CCFF;
+	}
+#sliderbox{
+	position:relative;
+	width:1792px;
+	animation-name:slide;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	
+	}
+#sliderbox img{
+	
+	float:left;
+	}
+ul{
+	background-color:#333;
+	}
+ul li{
+    width:200px;
+	display:inline-block;
+	height:60px;
+	line-height:60px;
+    text-align:center;
+	}
+ul li a{
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	
+	}
+a{
+	color:#FFF;
+	text-decoration:none;
+	}
+ul li a:hover{
+	background-color:#F60;
+	color:#000;
+	}
+@keyframes slide{
+	0%{
+		left:0px;
+		}
+	20%{
+		left:0px;
+		}
+	25%
+	   {
+		   left:-448px;
+		   }
+	45%{
+		left:-448px;
+		}
+	50%{
+		left:-896px;
+		}
+	70%{
+		left:-896px;
+		}
+	75%{
+		left:-1344px;
+		}
+	95%{
+		left:-1344px;
+		}
+	100%{
+		left:-1792px;}
+	}
+body{
+	margin:0 auto;
+	background-imgge:url("sfondo-desktop-290.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 720px;
+}
+.container{
+	width:500px;
+	height:400px;
+	text-align:center;
+	background-color:rgba(255,355,255,0.7);
+	border-radius:60px;
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	}
+.container img{
+	width:120px;
+	height:120px;
+	margin-top:-60px;
+	margin-bottom:30px;
+	}
+#aabb[type="text"],#aabb[type="pasword"]{
+	width:300px;
+	height:45px;
+	font-size:18px;
+	border:none;
+	margin-bottom:20px;
+	border-radius:4px;
+	background-color:#fff;
+	padding-left:40px;
+	}
+.from-input::before{
+	content:"";
+	position:absolute;
+	font-family:"fontawesom";
+	padding-left:5px;
+	color:£9b59b6;
+	padding-top:5px;
+	font-size:35px;
+	}
+.from-input:nth-child(2)::before{
+	content:""
+	}
+.btn-login{
+	padding-top:20px;
+	padding:15px 40px;
+	cursor:pointer;
+	color:#FFF;
+	border-radius:15px;
+	border:none;
+	background-color:#093;
+    margin-bottom:20px;
+	}
+.btn-login:hover{
+	background-color:#F63;
+	color:#000;}
+ul{
+	background-color:#333;
+	}
+ul li{width:200px;
+      display:inline-block;
+
+	}
+ul li a{
+	}
+#aabb{width:300px;
+	height:45px;
+	font-size:18px;
+	border:none;
+	margin-bottom:20px;
+	border-radius:4px;
+	background-color:#fff;
+	padding-left:40px;
+	}
+.btn-singup{
+    margin-top:10px;
+	margin-left:15px;
+	padding-top:20px;
+	padding:15px 35px;
+	cursor:pointer;
+	color:#00F;
+	border-radius:15px;
+	border:none;
+	background-color:#FFF;
+	margin-bottom:20px;
+	
+	}
+.btn-singup:hover{
+	background-color:#0FF;
+	color:#000;}
